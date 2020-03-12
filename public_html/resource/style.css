@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+    
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+background: #fff;
+height: auto;  
+}
+
+#content {
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    background: #9fbdff;  
+}
+
+#head {
+    font-size: 50px;
+    line-height: 180px;
+    color: #0039b9;
+    text-align: center;
+    width: 1000px;
+    height: 200px;
+    background-image: url(/resource/images/sky.jpg);
+}
+
+#menu {
+    width: 1000px;
+    height: 60px;
+    
+    
+}
+
+#menu li {
+    width: 250px;
+    height: 60px;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    background: #1f41ff;
+    cursor: pointer;
+
+}
+
+#menu li:hover {
+display: block;
+    background: #4d68ff;
+    transition-duration: 0.5s;
+}
+#menu li a{
+text-decoration: none;
+    color: #000;
+}
+
+#sidebar {
+    float: right;
+    width: 160px;
+    min-height: 600px;
+    height: auto;
+    background: #9fbdff;
+    text-align: center;
+    font-size: 16px;
+}
+
+#main {
+    width: 840px;
+    min-height: 600px;
+    height: auto;
+    background: #9fbdff;
+	text-align: center;
+}
+
+#video {
+padding-left: 50px;
+    padding-top: 20px;
+	text-align: center;
+}
+
+#news {
+padding-bottom: 30px;
+}
+#news1 {
+text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+	text-align: center;
+}
+#news2 {
+    width: 600px;
+    height: 150px;
+    background: #58a6e0;
+    border: solid 1px #386dfd;
+    border-radius: 10px;
+    box-shadow: 3px 3px #386dfd;
+    font-size: 16px;
+    padding: 4px;
+    margin-left: 100px;
+    margin-top: 20px;   
+	text-align: center;
+}
+
+#newstext {
+float: left;
+    padding: 5px;
+}
+#image {
+float: left;
+    padding: 5px;
+    border-radius: 10px;
+	text-align: center;
+}
+
+#footer {
+    width: 1000px;
+    height: 60px;
+    background: #9fbdff;
+    text-align: center;
+    line-height: 60px;
+}
+
+#regist {
+text-align: center;
+}
+
+#headreg {
+    margin-top: 30px;
+text-align: center;
+}
+
+
+
+
+
+
+body {
+margin: 0;
+
+background-color: #111;
+
+}
